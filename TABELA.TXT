@@ -1,0 +1,46 @@
+0 = Estoque
+1 =   Excluir
+2 = Clientes/Empresas
+3 =   Excluir
+4 = Funcionarios
+5 =   Excluir
+6 = Cheques
+7 =   Excluir
+8 = Bancos
+9 =   Excluir
+A =   Lanctos
+B = Centro de Custo
+C =   Excluir
+D = Fornecedores
+E =   Excluir
+F = Relat¢rios
+G = ( )CONTAS A PAGAR
+H = ( )CONTAS A RECEBER
+I = ( )EXTRATO BANCO
+J = ( )MOVIMENTO CAIXA
+K = ( )CAIXA MENSAL
+L = ( )
+M = ( )
+N = ( )
+O = ( )
+P = ( )
+Q = ( )
+R = ( )
+S = Relatorios do Estoque
+T = Relatorios de Funcionarios
+U = F2=Clientes
+V = F3=Funcionarios
+W = F4=Proventos/Descontos
+X = F5=Bancos
+Y = F6=Tabelas
+Z = F7=Fornecedores
+a = F8=Cheques
+b = F9=
+c = F10=Grupos
+d = 
+e = Contas
+f =    Excluir
+g =    Baixar
+h = Caixa
+i = Liberar carteiras
+

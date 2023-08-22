@@ -1,0 +1,89 @@
+//
+//    ADM.rmk
+//
+//       RMAKE ADM /dDEBUG
+//       para incluir informa‡äes do DEBUG
+//
+
+// Determine if DEBUGging is enabled
+#ifdef DEBUG
+   CompOptions := /b /m /n /w
+#else
+   CompOptions := /m /n /w
+#end
+
+.prg.obj:
+    clipper $< $(CompOptions)
+
+adm.obj:         adm.prg
+menuprin.obj:    menuprin.prg
+funcoes.obj:     funcoes.prg
+netware.obj:     netware.prg
+repclass.obj:    repclass.prg
+combo.obj:       combo.prg
+copseg.obj:      copseg.prg
+errorsys.obj:    errorsys.prg
+getsys.obj:      getsys.prg
+menuaud.obj:     menuaud.prg
+menuban.obj:     menuban.prg
+menucon.obj:     menucon.prg
+menufun.obj:     menufun.prg
+menurel.obj:     menurel.prg
+menurelf.obj:    menurelf.prg
+menurele.obj:    menurele.prg
+menucad.obj:     menucad.prg
+menumov.obj:     menumov.prg
+menuest.obj:     menuest.prg
+cadvenda.obj:    cadvenda.prg
+cadfor.obj:      cadfor.prg
+cadcli.obj:      cadcli.prg
+cadbanco.obj:    cadbanco.prg
+cadchequ.obj:    cadchequ.prg
+cadlanct.obj:    cadlanct.prg
+cadcaixa.obj:    cadcaixa.prg
+cadgru.obj:      cadgru.prg
+cadpagar.obj:    cadpagar.prg
+cadreceb.obj:    cadreceb.prg
+cadfun.obj:      cadfun.prg
+cadpro.obj:      cadpro.prg
+cadlan.obj:      cadlan.prg
+cadfat.obj:      cadfat.prg
+cadtab.obj:      cadtab.prg
+cadcam.obj:      cadcam.prg
+baixafat.obj:    baixafat.prg
+telvenda.obj:    telvenda.prg
+telcli.obj:      telcli.prg
+teldir.obj:      teldir.prg
+telfor.obj:      telfor.prg
+telrep.obj:      telrep.prg
+reppagar.obj:    reppagar.prg
+repreceb.obj:    repreceb.prg
+repextra.obj:    repextra.prg
+repemiss.obj:    repemiss.prg
+repcaixa.obj:    repcaixa.prg
+repcamen.obj:    repcamen.prg
+repfun.obj:      repfun.prg
+reppro.obj:      reppro.prg
+repfat.obj:      repfat.prg
+reppag.obj:      reppag.prg
+repcam_v.obj:    repcam_v.prg
+repcam_c.obj:    repcam_c.prg
+repcam.obj:      repcam.prg
+f11calc.obj:     f11calc.prg
+
+adm3.exe:       adm.obj  menuprin.obj  funcoes.obj  netware.obj   \
+                repclass.obj  combo.obj  copseg.obj  errorsys.obj  \
+                getsys.obj  menufun.obj  baixafat.obj  menurelf.obj  \
+                menuaud.obj  menuban.obj  menucon.obj  menurel.obj \
+                cadcli.obj  menucad.obj  cadfun.obj  cadpro.obj  \
+                cadfor.obj  cadbanco.obj  cadchequ.obj  menumov.obj \
+                cadlanct.obj  cadcaixa.obj  cadlan.obj  cadfat.obj  \
+                cadgru.obj  cadpagar.obj  cadreceb.obj  cadtab.obj  \
+                telcli.obj  teldir.obj  cadcam.obj  menurele.obj \
+                telfor.obj  telrep.obj  repcam_v.obj  repcam_c.obj \
+                reppagar.prg  repreceb.obj  repextra.obj  repcam.obj \
+                repemiss.obj  repcaixa.obj  f11calc.obj  repfun.obj  \
+                reppro.obj  repfat.obj  reppag.obj  menuest.obj  \
+                repcamen.obj  cadvenda.obj  telvenda.obj
+     rtlink @adm /silent
+

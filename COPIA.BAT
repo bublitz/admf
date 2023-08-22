@@ -1,0 +1,1 @@
+ARJ A -JT -W\TEMP A:ADMF3 *.PRG *.DB? *.LNK *.RMK *.BAT *.CH 

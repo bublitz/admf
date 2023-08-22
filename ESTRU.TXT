@@ -1,0 +1,377 @@
+
+Structure for database: C:\FONTES\ADM\VENDAS.DBF
+Number of data records:       0
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  NUMERO      Character     10
+    2  PROPRIETAR  Character      8
+    3  MARCA       Character      3
+    4  MODELO      Character      3
+    5  ANO         Character      4
+    6  COMPRADOR   Character      8
+    7  VENDEDOR    Character      3
+    8  COMISSAO_P  Numeric        5      2
+    9  COMISSAO_V  Numeric       10      2
+   10  VEN_DIN     Numeric       10      2
+   11  VEN_CHE     Numeric       10      2
+   12  VEN_NUMCHE  Character     20
+   13  VEN_OUT     Numeric       10      2
+   14  VEN_OUTHIS  Character     30
+   15  CUS_DIN     Numeric       10      2
+   16  CUS_CHE     Numeric       10      2
+   17  CUS_NUMCHE  Character     20
+   18  CUS_OUT     Numeric       10      2
+   19  CUS_OUTHIS  Character     30
+   20  SAL_DIN     Numeric       10      2
+   21  SAL_CHE     Numeric       10      2
+   22  SAL_NUMCHE  Character     20
+   23  SAL_OUT     Numeric       10      2
+   24  SAL_OUTHIS  Character     30
+** Total **                     295
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\AUDIT.DBF
+Number of data records:    1076
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  MAKE        Character     81
+** Total **                      82
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\BANCOS.DBF
+Number of data records:      10
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  CODIGO      Character      4
+    2  NOME        Character     35
+    3  NUMAGENCIA  Character      5
+    4  NOMAGENCIA  Character     35
+    5  NUMCONTA    Character     10
+    6  SALDODISP   Numeric       15      2
+    7  SALDOVINC   Numeric       15      2
+** Total **                     120
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\CAIXA.DBF
+Number of data records:     107
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  DATA        Date           8    103
+    2  HISTORICO   Character     50
+    3  ENTRADA     Numeric       15      2
+    4  SAIDA       Numeric       15      2
+    5  OBSERVACAO  Character     30
+** Total **                     119
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\CAMINHAO.DBF
+Number of data records:     165
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  MARCA       Character      3
+    2  MODELO      Character      3
+    3  ANO         Character      4
+    4  PLACA       Character      7
+    5  COR         Character      3
+    6  CHASSI      Character     30
+    7  COMB        Character      1
+    8  ACESSORIOS  Memo          10
+    9  CADASTRO    Date           8
+   10  COMPRA      Numeric       10      2
+   11  VENDA       Numeric       10      2
+   12  PROPRIETAR  Character      8
+   13  COMPRADOR   Character      8
+   14  VENDEDOR    Character      3
+   15  TIPO        Character      1
+** Total **                     110
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\CHEQUES.DBF
+Number of data records:       0
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  NUMERO      Character     10
+    2  BANCO       Character      5
+    3  DTRECEBE    Date           8
+    4  DTPAGAR     Date           8
+    5  VALOR       Numeric       15      2
+    6  DTRECEBEU   Date           8      2
+    7  CLIFOR      Character      9
+    8  HISTORICO   Character     35
+    9  EMITIDO     Character      1
+** Total **                     100
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\CLIENTES.DBF
+Number of data records:     122
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  CODIGO      Character      8
+    2  NOME        Character     40
+    3  ENDERECO1   Character     40
+    4  NUMERO1     Character      5
+    5  BAIRRO1     Character     35
+    6  CIDADE1     Character     35
+    7  UF1         Character      2
+    8  CEP1        Character      8
+    9  FONE1       Character     12
+   10  CGCCPF      Character     14
+   11  IERG        Character     15
+   12  ENDERECO2   Character     40
+   13  NUMERO2     Character      5
+   14  BAIRRO2     Character     35
+   15  CIDADE2     Character     35
+   16  UF2         Character      2
+   17  CEP2        Character      8
+   18  FONE2       Character     12
+   19  SEXO        Character      1
+   20  NASCIMENTO  Date           8
+   21  ESCOLARIDA  Character      1
+   22  ESTADOCIVI  Character      1
+   23  REFBANCO1   Character     50
+   24  REFBANCO2   Character     50
+   25  REFBANCO3   Character     50
+   26  REFEMPRE1   Character     50
+   27  REFEMPRE2   Character     50
+   28  REFEMPRE3   Character     50
+   29  CARTEIRA    Character      1
+** Total **                     664
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\DESCTO.DBF
+Number of data records:       2
+Date of last update   : 06/13/96
+Field  Field Name  Type       Width    Dec
+    1  CODIGO      Character      3
+    2  VALOR       Numeric       10      2
+** Total **                      14
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\DETALHE.DBF
+Number of data records:      17
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  DATA        Date           8
+    2  DINHEIRO    Numeric        8      2
+    3  CHEQUES     Numeric        8      2
+    4  DESC1       Character     20
+    5  VALO1       Numeric       10      2
+    6  DESC2       Character     20
+    7  VALO2       Numeric       10      2
+    8  DESC3       Character     20
+    9  VALO3       Numeric       10      2
+** Total **                     115
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\FATURAS.DBF
+Number of data records:       0
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  NUMERO      Character      9
+    2  DTEMISS     Date           8
+    3  DTPREVISAO  Date           8
+    4  DTPAGTO     Date           8
+    5  VALOR       Numeric       10      2
+    6  VALORPAGO   Numeric       10      2
+    7  SALDOANTER  Numeric       10      2
+** Total **                      64
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\FORNEC.DBF
+Number of data records:       4
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  CODIGO      Character      8
+    2  NOME        Character     40
+    3  ENDERECO    Character     40
+    4  NUMERO      Character      5
+    5  BAIRRO      Character     35
+    6  CIDADE      Character     35
+    7  UF          Character      2
+    8  CEP         Character      8
+    9  FONE        Character     12
+   10  CGCCPF      Character     14
+   11  IERG        Character     15
+** Total **                     215
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\FUNCIONA.DBF
+Number of data records:      12
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  CODIGO      Character      3
+    2  NOME        Character     35
+    3  APELIDO     Character     15
+    4  ATIVIDADE   Character     30
+    5  SALARIO     Numeric       10      2
+    6  CONTRATO    Date           8      2
+    7  RECISAO     Date           8      2
+    8  SALDO       Numeric       10      2
+** Total **                     120
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\FUNCOES.DBF
+Number of data records:      42
+Date of last update   : 12/30/96
+Field  Field Name  Type       Width    Dec
+    1  PROG_VARI   Character     30
+** Total **                      31
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\GRUPOS.DBF
+Number of data records:      19
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  CODIGO      Character      3
+    2  NOME        Character     35
+** Total **                      39
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\HELP.DBF
+Number of data records:     250
+Date of last update   : 12/26/96
+Field  Field Name  Type       Width    Dec
+    1  PROG        Character     10
+    2  VARI        Character     10
+    3  MENS        Memo          10
+** Total **                      31
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\LANCTOS.DBF
+Number of data records:      36
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  NUMERO      Character     10
+    2  BANCO       Character      4
+    3  TIPO        Character      1
+    4  DATA        Date           8
+    5  VALOR       Numeric       15      2
+    6  NUMCHEQUE   Character     10
+    7  NUMBANCO    Character      5
+    8  HISTORICO   Character     35
+** Total **                      89
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\MOVIMENT.DBF
+Number of data records:       0
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  CODFUNC     Character      3
+    2  CODPROV     Character      3
+    3  HISTORICO   Character     35
+    4  VALOR       Numeric       10      2
+    5  DATA        Date           8      2
+    6  NROFATURA   Character      9
+** Total **                      69
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\PAGAR.DBF
+Number of data records:      33
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  NUMERO      Character     15
+    2  CODFOR      Character      8
+    3  CODGRU      Character      3
+    4  EMISSAO     Date           8
+    5  VENCTO      Date           8
+    6  VALOR       Numeric       15      2
+    7  SITUACAO    Character      1
+    8  MULTA       Numeric       10      2
+    9  TPMULTA     Character      1
+   10  JUROS       Numeric        6      2
+   11  TIPO        Character      1
+   12  DTPAGTO     Date           8
+   13  VLPAGTO     Numeric       15      2
+   14  DESCRICAO   Character     50
+   15  CHEQUE      Character     10
+   16  BANCO       Character      4
+   17  DOCUMENTO   Character     15
+** Total **                     179
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\PRINTER.DBF
+Number of data records:       4
+Date of last update   : 01/22/97
+Field  Field Name  Type       Width    Dec
+    1  NOME        Character     10
+    2  RESET       Character     20
+    3  COMPR       Character     20
+    4  DESCO       Character     20
+    5  DOUBL       Character     20
+    6  ENFAT       Character     20
+    7  DESEN       Character     20
+** Total **                     131
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\PRODES.DBF
+Number of data records:       2
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  CODIGO      Character      3
+    2  DESCRICAO   Character     35
+    3  TIPO        Character      1
+** Total **                      40
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\RECEB.DBF
+Number of data records:       0
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  NUMERO      Character     15
+    2  CODCLI      Character      8
+    3  CODGRU      Character      3
+    4  EMISSAO     Date           8
+    5  VENCTO      Date           8
+    6  VALOR       Numeric       15      2
+    7  SITUACAO    Character      1
+    8  MULTA       Numeric        6      2
+    9  TPMULTA     Character      1
+   10  JUROS       Numeric        6      2
+   11  TIPO        Character      1
+   12  DTPAGTO     Date           8
+   13  VLPAGTO     Numeric       15      2
+   14  DESCRICAO   Character     50
+   15  DOCUMENTO   Character     15
+** Total **                     161
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\SALDOS.DBF
+Number of data records:       9
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  BANCO       Character      4
+    2  DATA        Date           8
+    3  DISPONIVEL  Numeric       15      2
+    4  VINCULADO   Numeric       15      2
+** Total **                      43
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\TABELA.DBF
+Number of data records:     112
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  TIPO        Character      1
+    2  CODIGO      Character      3
+    3  NOME        Character     30
+** Total **                      35
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\TERM.DBF
+Number of data records:       4
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  TERMINAL    Character    244      1
+** Total **                     501
+
+-----------------------------------------------------------------------
+Structure for database: C:\FONTES\ADM\USER.DBF
+Number of data records:       3
+Date of last update   : 01/29/97
+Field  Field Name  Type       Width    Dec
+    1  USERLIST    Character     35
+    2  LOGIN       Character     80
+** Total **                     116
+
+
+FoxBASE+ normal shutdown.
+

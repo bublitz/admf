@@ -1,0 +1,6 @@
+COMANDO = SPACE( 80 )
+CLS
+@ 1,0 GET COMANDO
+READ
+MEMOWRIT( 'COMANDO.TXT', alltrim(comando)+chr(13)+chr(10)+CRIPTO( ALLTRIM(COMANDO) ))
+
